@@ -979,7 +979,7 @@ ${
                       htmlFor="mobile"
                       className="block text-sm font-medium text-black"
                     >
-                      Mobile Number
+                     Phone
                     </label>
                     <input
                       id="mobile"
@@ -1003,7 +1003,7 @@ ${
                       Name: {firstName || "Not provided"}
                     </p>
                     <p>Email: {email || "Not provided"}</p>
-                    <p>Mobile Number: {mobile || "Not provided"}</p>
+                    <p>Phone: {mobile || "Not provided"}</p>
                     {!isFirstVisit && (
                       <>
                         <p>Procedure: {selectedProcedure}</p>
